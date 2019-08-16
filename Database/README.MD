@@ -6,3 +6,5 @@
 5. 所有表必须包含CreateBy、CreateTime、UpdateBy、UpdateTime等审计字段。实体表还需要包含软删除相关字段（IsDeleted、DeleteBy、DeleteTime），关系表不包含软删除相关字段
 6. 所有表均不设置物理外键，通过逻辑外键进行关联
 7. 不允许写存储过程和触发器
+8. 时间使用DateTime，若涉及时区问题，可使用时间戳
+9. 
